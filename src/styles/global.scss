@@ -5,8 +5,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../assets/bg.webp");
   background-size: cover;
   background-position: center;
+}
+
+h1 {
+  font-size: clamp(25px, 2.604vw, 100px);
+  color: white;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-size: clamp(12px, 1.24992vw, 48px);
+  color: white;
+  font-family: "Press Start 2P";
+  font-style: normal;
+  font-weight: 400;
+  @apply text-green-500;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.content-container {
+  width: 86.6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }

@@ -3,5 +3,5 @@ import MainScreen from "@screens/Home/MainScreen/MainScreen.vue";
 </script>
 
 <template>
-  <div class="container"><MainScreen /></div>
+  <div class="page"><MainScreen /></div>
 </template>
